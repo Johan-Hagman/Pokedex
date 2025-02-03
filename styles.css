@@ -1,0 +1,82 @@
+/* 🎨 Generella inställningar */
+body {
+  font-family: "Press Start 2P", cursive;
+  background-color: #f7d02c;
+  color: #2c2c2c;
+  text-align: center;
+  padding: 20px;
+}
+
+/* 🏆 Rubriker */
+h1 {
+  color: #ff0000;
+  text-shadow: 2px 2px 0px #000;
+}
+
+/* 📜 Länkar */
+a {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffcc00;
+}
+
+/* 📦 Lista med Pokémon */
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 🎴 Pokémon-kort */
+li {
+  background-color: white;
+  border: 3px solid #ff0000;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: transform 0.2s ease-in-out;
+}
+
+li:hover {
+  transform: scale(1.1);
+}
+
+/* 🖼️ Pokémon-bilder */
+img {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #ffcc00;
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* 🎮 Knappstil */
+button,
+.button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 3px 3px 0px #000;
+}
+
+button:hover,
+.button:hover {
+  background-color: #cc0000;
+  box-shadow: 2px 2px 0px #000;
+}
